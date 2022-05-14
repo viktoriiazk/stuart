@@ -1,0 +1,29 @@
+@import '../../sassStyles/variables';
+@import "../../App";
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  .logo {
+    img {
+      max-height: 100px;
+      height: 100%;
+      width: auto;
+    }
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+
+      }
+    }
+  }
+}

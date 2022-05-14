@@ -1,0 +1,51 @@
+@import 'sassStyles/variables';
+@font-face {
+  font-family: "GT-Walsheim-Bold";
+  src: local("GT-Walsheim"),
+  url("./fonts/GT-Walsheim-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Walsheim-Bold";
+  src: local("GT-Walsheim"),
+  url("./fonts/GT-Walsheim-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Walsheim-Condensed";
+  src: local("GT-Walsheim-Condensed"),
+  url("./fonts/GT-Walsheim-Condensed.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Walsheim-Medium";
+  src: local("GT-Walsheim-Medium"),
+  url("./fonts/GT-Walsheim-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Walsheim-Regular";
+  src: local("GT-Walsheim-Regular"),
+  url("./fonts/GT-Walsheim-Regular.woff2") format("woff2");
+}
+
+
+body {
+  font-family: "GT-Walsheim-Medium";
+  font-size: 16px;
+  color: $color-dark-s;
+  background-color: $color-light-s;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
+  color: $color-dark-s;
+  margin: 0;
+  font-family: Arial;
+}
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0px auto;
+  max-width: 1200px;
+  background-color: $white;
+  border-radius: 28px;
+
+}
+
+
