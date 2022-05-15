@@ -25,14 +25,14 @@ return (
             </h3>
             <p className={style.blogPostItem__desc}>Discover the key last-mile trends to know in 2022 and explore how changing habits will drive delivery needs across grocery, retail and food this year.</p>
         </div>
-        <div className={style.blogPostItem}>
+        <div className={style.blogPostItem} onClick={togglePopup}>
             <img src={require('../../assets/images/blog_4.png')} alt="blog image"/>
             <h3>
                 <span className={style.blogPostItem__title}>6 ways to make your delivery sustainable</span>
             </h3>
             <p className={style.blogPostItem__desc}> Today's customers expect retailers to offer both fast and sustainable delivery. But how to reconcile these expectations? Here are Stuart's tips to help retailers achieve sustainability while delivering a rewarding customer experience. </p>
         </div>
-        <div className={style.blogPostItem}>
+        <div className={style.blogPostItem} onClick={togglePopup}>
             <img src={require('../../assets/images/blog_1.png')} alt="blog image"/>
             <h3>
                 <span className={style.blogPostItem__title}>Valentine’s Day 2022: Deliver happiness, receive loyalty</span>
