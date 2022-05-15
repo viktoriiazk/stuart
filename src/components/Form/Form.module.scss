@@ -1,0 +1,50 @@
+@import '../../sassStyles/variables';
+@import "../../App";
+
+.Form {
+width: 100%;
+input {
+  display: block;
+  max-width: 350px;
+  background-color: #edfcff;
+  border: none;
+  border-radius: 20px;
+  padding: 18px 36px;
+  width: 100%;
+  color: $color-dark-s;
+  font-weight: 100;
+  &::placeholder {
+    font-weight: 100;
+  }
+}
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+  .emailError {
+    font-size: 14px;
+    color: red;
+  }
+  .btnSubmit {
+    background-color: $color-blue-m;
+    margin: 0 auto;
+    color: $color-light-s;
+    display: block;
+    text-align: center;
+    max-width: 350px;
+    border: none;
+    border-radius: 20px;
+    padding: 18px 36px;
+    width: 100%;
+    font-weight: 100;
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+      background-color:  $color-blue-s;
+    }
+  }
+}
