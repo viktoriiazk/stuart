@@ -1,0 +1,16 @@
+@import '../../sassStyles/variables';
+@import "../../App";
+.Footer {
+  background-color: $color-blue-s;
+  padding: 40px;
+  p {
+    text-align: center;
+    color: $color-light-s;
+
+  }
+  a {
+    text-decoration: none;
+    color: $color-light-s;
+
+  }
+}
