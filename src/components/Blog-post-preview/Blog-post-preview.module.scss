@@ -1,0 +1,66 @@
+@import '../../sassStyles/variables';
+@import "../../App";
+
+
+.blogPostWrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  .blogPostItem {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+
+img {
+  max-height: 300px;
+  height: 100%;
+  width: auto;
+  border-radius: 40px;
+}
+    &__title {
+      font-size: 28px;
+      color: $color-dark-m;
+      font-weight: 900;
+      background-image: linear-gradient(90deg,#9eebfd 0,#9eebfd);
+      background-size: 0 28px;
+      background-position: 0 95%;
+      background-repeat: no-repeat;
+      padding: .1% 0;
+      transition: background-size .4s ease-out;
+
+    }
+    &__desc {
+      color: $color-dark-m;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &:hover {
+      cursor: pointer;
+      .blogPostItem__title{
+
+        background-size: 100% 28px;
+      }
+    }
+  }
+}
+@media  (min-width: 1200px){
+.blogPostWrap {
+  justify-content: space-between;
+.blogPostItem {
+  img {
+    max-height: 420px;
+  }
+
+}
+}
+}
