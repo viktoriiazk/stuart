@@ -20,14 +20,17 @@ input {
   label {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 40px;
+    &:nth-last-child(1){
+      margin-bottom: 40px;
+    }
   }
   .emailError {
     font-size: 14px;
     color: red;
+    margin-bottom: 20px;
   }
   .btnSubmit {
     background-color: $color-blue-m;
